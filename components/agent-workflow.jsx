@@ -12,7 +12,7 @@ export default function AgentWorkflow() {
   const { agentPersona, userQuery } = useWorkflow()
   const [isLoading, setIsLoading] = useState(false)
   const [output, setOutput] = useState("")
-  const [model, setModel] = useState("gpt-4o")
+  const [model, setModel] = useState("llama3.2:latest")
   const [error, setError] = useState("")
 
   const executeWorkflow = async () => {
