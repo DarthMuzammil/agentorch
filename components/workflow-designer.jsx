@@ -2,7 +2,7 @@
 import ReactFlow, { Background, Controls, MiniMap, addEdge, useNodesState, useEdgesState } from "reactflow"
 import "reactflow/dist/style.css"
 import { useWorkflow } from "@/context/workflow-context"
-import AgentNode from "./nodes/agent-node"
+import AgentNode from './nodes/agent-node'
 import QueryNode from "./nodes/query-node"
 import OutputNode from "./nodes/output-node"
 
@@ -92,4 +92,3 @@ export default function WorkflowDesigner() {
     </div>
   )
 }
-

@@ -25,4 +25,3 @@ export default function AgentNode({ data, id }) {
     </div>
   )
 }
-

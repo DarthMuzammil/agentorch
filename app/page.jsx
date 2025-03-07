@@ -1,7 +1,7 @@
 import { Suspense } from "react"
-import AgentWorkflow from "@/components/agent-workflow"
-import WorkflowDesigner from "@/components/workflow-designer"
-import { WorkflowProvider } from "@/context/workflow-context"
+import AgentWorkflow from "../components/agent-workflow"
+import WorkflowDesigner from "../components/workflow-designer"
+import { WorkflowProvider } from "../context/workflow-context"
 
 export default function Home() {
   return (
